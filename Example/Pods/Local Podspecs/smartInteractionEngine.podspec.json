@@ -1,8 +1,8 @@
 {
   "name": "smartInteractionEngine",
-  "version": "0.1.0",
-  "summary": "A short description of smartInteractionEngine.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "Framework to help iot",
+  "description": "This framework is developed by VMware. This will help iot projects",
   "homepage": "https://github.com/paritoshp/smartInteractionEngine",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/paritoshp/smartInteractionEngine.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "smartInteractionEngine/Classes/**/*"
+  "source_files": "*.{swift}",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }

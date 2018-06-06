@@ -1,16 +1,24 @@
 PODS:
-  - smartInteractionEngine (0.1.0)
+  - Alamofire (4.7.2)
+  - smartInteractionEngine (1.0.1):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - smartInteractionEngine (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 EXTERNAL SOURCES:
   smartInteractionEngine:
     :path: "../"
 
 SPEC CHECKSUMS:
-  smartInteractionEngine: 818f5f1cccd452fcc35b84121df5288bcb0813e0
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  smartInteractionEngine: f8316e943150affd587389de9b844c123ef733f4
 
-PODFILE CHECKSUM: e5d642792a26c1802b5f6daa8a60e32ad9551dc1
+PODFILE CHECKSUM: 622de0286d23d2ae250c1cfbd94dfc51c1b8505f
 
 COCOAPODS: 1.5.3

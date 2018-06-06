@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import smartInteractionEngine
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var obj = sampleFile()
+//        sampleFile().makePostCallWithAlamofire(NFCID: "12345", completionHandler: {
+//            dict in
+//            print(dict)
+//            var actionResponseMapDict = [String:Any]()
+//            actionResponseMapDict = dict["actionResponseMap"] as! [String:Any]
+//            var OpenUrlActionDict = [String:Any]()
+//            OpenUrlActionDict = actionResponseMapDict["OpenUrlAction"] as! [String:Any]
+//
+//            var responseDict = [String:Any]()
+//            responseDict = OpenUrlActionDict["response"] as! [String:Any]
+//            self.playVideoOnSafari(URLToLoad: responseDict["url"] as! String)
+//        })
         return true
     }
 

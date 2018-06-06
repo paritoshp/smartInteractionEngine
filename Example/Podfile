@@ -2,10 +2,10 @@ use_frameworks!
 
 target 'smartInteractionEngine_Example' do
   pod 'smartInteractionEngine', :path => '../'
+  pod 'Alamofire'
 
   target 'smartInteractionEngine_Tests' do
     inherit! :search_paths
-
     
   end
 end
