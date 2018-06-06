@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'smartInteractionEngine_Example' do
+  pod 'smartInteractionEngine', :path => '../'
+
+  target 'smartInteractionEngine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
