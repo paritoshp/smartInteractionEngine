@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
 #s.source_files = 'smartInteractionEngine/Classes/**/*'
-s.source_files = 'smartsmartInteractionEngine/Classes/**/*'
+s.source_files = '*.{swift}'
   
   # s.resource_bundles = {
   #   'smartInteractionEngine' => ['smartInteractionEngine/Assets/*.png']
