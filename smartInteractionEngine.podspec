@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'This framework is developed by VMware. This will help iot projects'
 
   s.homepage         = 'https://github.com/paritoshp/smartInteractionEngine'
+  
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'paritoshp' => 'paritosh.pawar@mindstix.com' }
@@ -28,7 +29,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'smartInteractionEngine/Classes/**/*'
+#s.source_files = 'smartInteractionEngine/Classes/**/*'
+s.source_files = 'smartsmartInteractionEngine/Classes/**/*'
   
   # s.resource_bundles = {
   #   'smartInteractionEngine' => ['smartInteractionEngine/Assets/*.png']
