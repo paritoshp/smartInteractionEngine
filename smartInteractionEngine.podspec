@@ -25,9 +25,11 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'paritoshp' => 'paritosh.pawar@mindstix.com' }
   s.source           = { :git => 'https://github.com/paritoshp/smartInteractionEngine.git', :tag => s.version.to_s }
+  #s.swift_version = '>= 3.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
 
 #s.source_files = 'smartInteractionEngine/Classes/**/*'
 s.source_files = '*.{swift}'
@@ -39,4 +41,5 @@ s.source_files = '*.{swift}'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
 end
