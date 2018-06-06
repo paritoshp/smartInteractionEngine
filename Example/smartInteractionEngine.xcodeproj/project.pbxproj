@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065C99211685DE699BCE2413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		065C99211685DE699BCE2413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B8235A9D5929055A7A4102B /* Pods-smartInteractionEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartInteractionEngine_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartInteractionEngine_Tests/Pods-smartInteractionEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E1D6B28723865C0F39C9E53 /* smartInteractionEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = smartInteractionEngine.podspec; path = ../smartInteractionEngine.podspec; sourceTree = "<group>"; };
-		57F924383CD38FD5E9C96D94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E1D6B28723865C0F39C9E53 /* smartInteractionEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = smartInteractionEngine.podspec; path = ../smartInteractionEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57F924383CD38FD5E9C96D94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* smartInteractionEngine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartInteractionEngine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };

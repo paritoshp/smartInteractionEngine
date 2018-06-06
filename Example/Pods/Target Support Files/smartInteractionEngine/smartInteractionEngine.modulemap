@@ -1,0 +1,6 @@
+framework module smartInteractionEngine {
+  umbrella header "smartInteractionEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

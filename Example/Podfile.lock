@@ -1,0 +1,16 @@
+PODS:
+  - smartInteractionEngine (0.1.0)
+
+DEPENDENCIES:
+  - smartInteractionEngine (from `../`)
+
+EXTERNAL SOURCES:
+  smartInteractionEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  smartInteractionEngine: 818f5f1cccd452fcc35b84121df5288bcb0813e0
+
+PODFILE CHECKSUM: e5d642792a26c1802b5f6daa8a60e32ad9551dc1
+
+COCOAPODS: 1.5.3
