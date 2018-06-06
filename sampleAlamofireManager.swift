@@ -10,7 +10,7 @@ import CoreNFC
 import Alamofire
 
 @available(iOS 11.0, *)
-class sampleAlamofireManager: NSObject {
+public class sampleAlamofireManager: NSObject {
     
     //Class constants
     let URL_TO_GET_DATA_WITH_NFCID = "http://s2-dev-mobile-2:3232/smart-interaction-engine/api/v1/engine/events"

@@ -7,6 +7,6 @@
 
 import UIKit
 
-class sampleFile: NSObject {
+public class sampleFile: NSObject {
 
 }
