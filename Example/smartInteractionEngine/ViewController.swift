@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import smartInteractionEngine
 
+@available(iOS 11.0, *)
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let vc = NFCViewController()
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
     }
 
     override func didReceiveMemoryWarning() {

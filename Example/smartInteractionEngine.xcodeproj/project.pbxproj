@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051CB48C20C92A3A00CE94D9 /* smartInteractionEngine_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = smartInteractionEngine_Example.entitlements; sourceTree = "<group>"; };
 		065C99211685DE699BCE2413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B8235A9D5929055A7A4102B /* Pods-smartInteractionEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartInteractionEngine_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartInteractionEngine_Tests/Pods-smartInteractionEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E1D6B28723865C0F39C9E53 /* smartInteractionEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = smartInteractionEngine.podspec; path = ../smartInteractionEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -72,6 +73,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				051CB48C20C92A3A00CE94D9 /* smartInteractionEngine_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for smartInteractionEngine */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -212,11 +214,20 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5347883SU6;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5347883SU6;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -471,11 +482,17 @@
 			baseConfigurationReference = 972ED174CCF6331D7D1E0253 /* Pods-smartInteractionEngine_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = smartInteractionEngine_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gourav Jamwal (GT58HJKWFP)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5347883SU6;
 				INFOPLIST_FILE = smartInteractionEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vmware.iot.SmartiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21a42631-8d5b-4aa6-b94d-45c44dd1ece6";
+				PROVISIONING_PROFILE_SPECIFIER = "VMware Smart iOS App Development";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -486,11 +503,18 @@
 			baseConfigurationReference = 6D69EE123F03A53A5A7BFFE8 /* Pods-smartInteractionEngine_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = smartInteractionEngine_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gourav Jamwal (GT58HJKWFP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gourav Jamwal (GT58HJKWFP)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5347883SU6;
 				INFOPLIST_FILE = smartInteractionEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vmware.iot.SmartiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21a42631-8d5b-4aa6-b94d-45c44dd1ece6";
+				PROVISIONING_PROFILE_SPECIFIER = "VMware Smart iOS App Development";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -500,6 +524,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AABCEB3B3956106001B72AD /* Pods-smartInteractionEngine_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5347883SU6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -512,6 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -521,6 +549,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B8235A9D5929055A7A4102B /* Pods-smartInteractionEngine_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5347883SU6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

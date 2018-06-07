@@ -32,7 +32,7 @@ public class sampleAlamofireManager: NSObject {
             "eventName" : "NFCScannedEvent"
         ]
         print(parameters)
-        Alamofire.request("http://s2-dev-mobile-2:3232/smart-interaction-engine/api/v1/engine/events", method: .post, parameters: parameters, encoding: JSONEncoding.default)
+        Alamofire.request(URL_TO_GET_DATA_WITH_NFCID, method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseJSON { response in
                 print(response)
                 // Handle Status
