@@ -1,6 +1,6 @@
 {
   "name": "smartInteractionEngine",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "summary": "Framework to help iot",
   "description": "This framework is developed by VMware. This will help iot projects",
   "homepage": "https://github.com/paritoshp/smartInteractionEngine",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/paritoshp/smartInteractionEngine.git",
-    "tag": "1.0.2"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "8.0"

@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.7.2)
-  - smartInteractionEngine (1.0.2):
+  - smartInteractionEngine (1.0.5):
     - Alamofire
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
-  smartInteractionEngine: 0507d32e691d04e30fc310cb99e4bf69c79dcb98
+  smartInteractionEngine: 57bbc81f0466d69fab6e3b8ae90b60f0a8aebae3
 
 PODFILE CHECKSUM: 622de0286d23d2ae250c1cfbd94dfc51c1b8505f
 

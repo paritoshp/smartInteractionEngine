@@ -29,6 +29,11 @@ public class NFCViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    public func callNFCDetectionMethod() {
+        nfcSession = NFCNDEFReaderSession.init(delegate: self, queue: nil, invalidateAfterFirstRead: true)
+        nfcSession?.begin()
+    }
 }
 
 @available(iOS 11.0, *)
@@ -37,11 +42,6 @@ extension NFCViewController : NFCNDEFReaderSessionDelegate {
     // Called when the reader-session expired, you invalidated the dialog or accessed an invalidated session
     public func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
         print("Error reading NFC: \(error.localizedDescription)")
-    }
-    
-    func callNFCDetectionMethod() {
-        nfcSession = NFCNDEFReaderSession.init(delegate: self, queue: nil, invalidateAfterFirstRead: true)
-        nfcSession?.begin()
     }
     
     // Called when a new set of NDEF messages is found

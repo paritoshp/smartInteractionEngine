@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'smartInteractionEngine_Example' do
   pod 'smartInteractionEngine', :path => '../'
-  pod 'Alamofire'
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'master'
 
   target 'smartInteractionEngine_Tests' do
     inherit! :search_paths
