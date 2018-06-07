@@ -11,9 +11,9 @@ import CoreNFC
 @available(iOS 11.0, *)
 public class NFCViewController: UIViewController {
     
-    private var nfcSession: NFCNDEFReaderSession?
-    private var NFCTagID = ""
-    private var nfcMessages: [[NFCNDEFMessage]] = []
+    public var nfcSession: NFCNDEFReaderSession?
+    public var NFCTagID = ""
+    public var nfcMessages: [[NFCNDEFMessage]] = []
     
     let delimiter = "Payload Type=<"
     var finalString : String = "1234-4321-1234"
