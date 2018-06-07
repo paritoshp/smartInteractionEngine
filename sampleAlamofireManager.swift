@@ -16,8 +16,8 @@ public class sampleAlamofireManager: NSObject {
     let URL_TO_GET_DATA_WITH_NFCID = "http://s2-dev-mobile-2:3232/smart-interaction-engine/api/v1/engine/events"
     
     // Class Variables
-    private var nfcSession: NFCNDEFReaderSession?
-    private var nfcMessages: [[NFCNDEFMessage]] = []
+//    private var nfcSession: NFCNDEFReaderSession?
+//    private var nfcMessages: [[NFCNDEFMessage]] = []
     
     //Method which make simple post API call with help of Alamofire
     //It will give a callback in app contaning this framework
